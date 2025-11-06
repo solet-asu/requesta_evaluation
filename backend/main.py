@@ -31,11 +31,8 @@ from backend.schemas import (
     ParticipationEndRequest,
 )
 from backend.security import new_session_id
-from backend.data import PASSAGES, QUESTIONS, VOCAB
+from backend.data import PASSAGES, QUESTIONS, VOCAB, is_returning_prolific
 from backend import storage
-from .security import new_session_id
-from .data import PASSAGES, QUESTIONS, VOCAB
-from .data import is_returning_prolific
 from . import storage
 load_dotenv()
 
